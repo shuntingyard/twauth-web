@@ -38,7 +38,8 @@ https://github.com/shuntingyard/twauth-web for `FastAPI` integration
 - [x] check in your changes and create your own repo
 - [ ] tidy up html stuff (external dependencies (fonts!) and format)
 - [ ] make html stuff multilingual (using language prefs from user agent)
+- [ ] persist access token using some kind of vault
 
 ## Related (Authlib)
-[FastAPI Authlib examples](https://docs.authlib.org/en/latest/client/fastapi.html)
+[FastAPI Authlib examples](https://docs.authlib.org/en/latest/client/fastapi.html)  
 [Lukasthaler FastAPI Oauth Examples](https://github.com/lukasthaler/fastapi-oauth-examples)
