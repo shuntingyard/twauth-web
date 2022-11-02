@@ -1,6 +1,6 @@
 # twauth-web
 
-A simple Python + Flask web app that demonstrates the flow of obtaining a [Twitter user OAuth access token](https://developer.twitter.com/en/docs/basics/authentication/overview/oauth).
+A simple Python + FastAPI web app that demonstrates the flow of obtaining a [Twitter user OAuth access token](https://developer.twitter.com/en/docs/basics/authentication/overview/oauth).
 
 ## Setup
 
@@ -31,4 +31,12 @@ Finally, revisit the dev portal, and add your app's callback URL (`https://your-
 
 Original version by Jacob Petrie  
 https://twitter.com/jaakkosf  
-https://github.com/jaakko-sf/twauth-web  
+https://github.com/jaakko-sf/twauth-web
+https://github.com/shuntingyard/twauth-web for `FastAPI` integration
+
+## TODO 
+- [x] check in your changes and create your own repo
+- [ ] tidy up html stuff (external dependencies (fonts!) and format)
+- [ ] quickly check html and language prefs from user agent
+- [ ] build examples provided by Authlib guys: https://docs.authlib.org/en/latest/client/fastapi.html
+- [ ] explore (already cloned) `github.com/lukasthaler/fastapi-oauth-examples`
