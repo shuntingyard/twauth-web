@@ -12,9 +12,9 @@ A simple Python + FastAPI web app that demonstrates the flow of obtaining a [Twi
    2. `. venv/bin/activate`
    3. `pip install -r requirements.txt`
 3. Start the app:
-   1. `hypercorn --certfile your_cert.pem --keyfile your_privkey.pem --bind example.com:8443 twauth-web:app`
+   1. `hypercorn --certfile cert.pem --keyfile key.pem --bind example.com:8443 twauth-web:app`
 
-> Note: the app must have an Internet-accessible URL - do not attempt to connect via localhost, as this will not work. You can run a tunnel e.g. `ngrok` for local use, or deploy to a cloud platform such as Heroku (a `Procfile` is included).
+> Note: the app must have an Internet-accessible URL - do not attempt to connect via localhost, as this will not work. You can run a tunnel e.g. `ngrok` for local use.
 
 Open a browser window on your demo app's external URL. Don't click the buttons yet!
 
@@ -37,6 +37,8 @@ https://github.com/shuntingyard/twauth-web for `FastAPI` integration
 ## TODO
 - [x] check in your changes and create your own repo
 - [ ] tidy up html stuff (external dependencies (fonts!) and format)
-- [ ] quickly check html and language prefs from user agent
-- [ ] build examples provided by Authlib guys: https://docs.authlib.org/en/latest/client/fastapi.html
-- [ ] explore (already cloned) `github.com/lukasthaler/fastapi-oauth-examples`
+- [ ] make html stuff multilingual (using language prefs from user agent)
+
+## Related (Authlib)
+[FastAPI Authlib examples](https://docs.authlib.org/en/latest/client/fastapi.html)
+[Lukasthaler FastAPI Oauth Examples](https://github.com/lukasthaler/fastapi-oauth-examples)
