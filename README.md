@@ -39,6 +39,8 @@ https://github.com/shuntingyard/twauth-web for `FastAPI` integration
 - [ ] tidy up html stuff (external dependencies (fonts!) and format)
 - [ ] make html stuff multilingual (using language prefs from user agent)
 - [ ] persist access token using some kind of vault
+- [ ] run pen checks
+- [ ] see if we can improve code quality with dependency injection on endpoints
 
 ## Related (Authlib)
 [FastAPI Authlib examples](https://docs.authlib.org/en/latest/client/fastapi.html)  
